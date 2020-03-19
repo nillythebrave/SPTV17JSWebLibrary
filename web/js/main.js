@@ -14,4 +14,7 @@ function toogleMenuActive(elementId){
         }else{
             if(passiveElements[i].classList.contains("active-menu")){
                 passiveElements[i].classList.remove("active-menu");
-            }}}}
+            }
+        }
+    }
+}
